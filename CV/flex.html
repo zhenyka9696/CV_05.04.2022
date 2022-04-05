@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: beige;
+        border: 1px solid;
+        display: flex;
+        /* flex-direction: row;*/
+        height: 100%;
+        /*flex-wrap: wrap;
+    width: 40%;*/
+        justify-content: space-between;
+      }
+      .item {
+        background: #423042;
+        padding: 8px;
+        margin: 8px;
+        width: 40%;
+      }
+
+      .main {
+        background-color: darkorange;
+        height: 500px;
+        /*display: flex;*/
+        flex-direction: row;
+      }
+      .squere {
+        background-color: darkmagenta;
+        width: 100px;
+        height: 100px;
+        margin: 8px;
+        line-height: 100px;
+        text-align: center;
+      }
+      .footer {
+        background: rgb(158, 132, 76);
+        display: flex;
+      }
+      .vert {
+        display: flex;
+        flex-direction: column;
+      }
+      .hor {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">item 1</div>
+      <div class="item">item 2</div>
+      <div class="item">item 3</div>
+      <div class="item">item 4</div>
+    </div>
+    <div class="main">
+      <div class="vert">
+        <div class="squere">Squere 1</div>
+        <div class="squere">Squere 2</div>
+      </div>
+      <div class="hor">
+        <div class="squere">Squere 3</div>
+        <div class="squere">Squere 4</div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>"footer"</p>
+    </div>
+  </body>
+</html>

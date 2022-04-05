@@ -1,0 +1,46 @@
+div{
+width: 30%;
+height: 50px;
+line-height: 50px;
+
+/*margin: 10px;
+padding: 10px;
+border: 10px;*/}
+
+.static{
+    position: static;
+    background:rgb(189,564,456);
+    text-align: center;
+}
+.fixed{
+    position: fixed;
+    background:rgb(24,35,88);
+    color:rgb(210,140,5);
+    bottom: 50px;
+    left:50px;
+    
+}
+.absolute{
+position: absolute;
+background:rgb(23, 28, 85);
+left: 0px;
+bottom:0px;}
+.relative{
+position:relative;
+background:rgb(33, 90, 37);
+top: 50px;
+left: 50px;
+bottom: 30px;
+}
+.sticky{
+    position: sticky;
+    background:rgb(191,92,184);
+    left: 10px;
+    top: 20px;
+}
+ table{
+     width: 200%;
+ }
+ td{
+     width: 30%;
+ }
